@@ -65,7 +65,7 @@ All files |       0 |        0 |       0 |       0 |
 
 ## Workaround: use c8 
 
-with [c8](https://www.npmjs.com/package/c8) wrapping tap, coverage metrics get reported natively:
+with [c8](https://www.npmjs.com/package/c8) wrapping tap, coverage metrics get reported natively (`--no-coverage` option used to supress the empty tap report):
 
 ```sh
 ❯ c8 tap test.mjs --no-coverage
@@ -85,4 +85,4 @@ File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 All files  |     100 |      100 |     100 |     100 |
  index.mjs |     100 |      100 |     100 |     100 |
 -----------|---------|----------|---------|---------|-------------------
-``
+```
